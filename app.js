@@ -17,7 +17,7 @@ app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
 
-mongoose.connect("mongodb+srv://kaio:KaioIreland17@cluster0-5xqr3.mongodb.net/BlogDB?retryWrites=true&w=majority", 
+mongoose.connect("URL", 
   { useNewUrlParser: true,
     useUnifiedTopology: true }
 );
